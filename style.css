@@ -1,0 +1,134 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+}
+.container {
+    max-width: 986px;
+    font-size: 10px;
+    line-height: 16px;
+    position: relative;
+}
+a {
+    color: #222222;
+}
+
+
+
+
+
+
+.nav-bar, .menu, .top-block, .block-2 {
+    border: 1px solid #f1f1f4;
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    background: #fff;
+}
+.nav-bar {
+    margin: 19px 0;
+    width: 100%;
+    padding: 0;
+}
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.nav-bar li {
+    display: inline-block;
+}
+.logo {
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    padding-right: 24px;
+    padding-left: 20px;
+}
+.btnTop {
+    width: 140px;
+    color: #4f4f4f;
+    font: 10px/16px 'Montserrat', sans-serif;
+    border-color: #4f4f4f;
+    background: #fff;
+    text-shadow: none;
+    box-shadow: none;
+    margin-right: 9px;
+}
+.btnTop:hover {
+    background: #7366ef;
+    border-color: #7366ef;
+    color: #fff;
+}
+
+
+.nav-bar .bl-r-1 {
+/*     display: flex; */
+/*     width: auto; */
+}
+.nav-bar .bl-r-1 li{
+    justify-content: flex-end;
+}
+/* .caret { */
+/*     border-top: 3px dashed; */
+/*     border-right: 3px solid transparent; */
+/*     border-left: 3px solid transparent; */
+/* } */
+
+ .navbar-default .navbar-nav>li.language>a{
+    color: #222222;
+}
+.lan-img-icon, #lan-img-icon {
+    max-width: 25px;
+    width: 100%;
+    height: 15px;
+    vertical-align: sub;
+    margin-right: 14px;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background-image: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background: #fff;
+    color: #222222;
+}
+
+
+.dropdown-menu {
+    border: 1px solid #f1f1f4;
+    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    font: 10px/16px 'Montserrat', sans-serif;
+    color: #222222;
+
+}
+.navbar-nav>li>.dropdown-menu {
+    border: 1px solid #d4d2d2;
+    padding: 10px;
+}
+
+.notifications {
+    margin-left: 23px;
+    margin-right: 59px;
+}
+.notifications .dropdown-toggle::after {
+    display: none;
+}
+
+
+.profile button {
+    border: none;
+    background: #fff;
+    padding-top: 5px;
+    color: #222222;
+}
+
+#logo-img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow:  0 0 10px rgba(0,0,0,0.1);
+    border-radius: 9999px!important;
+    margin: 0 9px;
+}
